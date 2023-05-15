@@ -15,7 +15,7 @@ const New= () =>{
             <h1 className="text-center text-4xl font-robo font-bold mb-8 text-[#00a6a6] ">New & Events</h1>
             <div className="w-full h-auto grid  gap-10 md:gap-12 xl:gap-28  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
-            <div className="relative card1 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+            <div data-aos="zoom-in-up" className="relative card1 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner} />
                 <div className="text-center">
                 <h1 className="text-lg font-bold">Registration Process Timeline</h1>
@@ -27,7 +27,7 @@ const New= () =>{
 
 
             </div>
-            <div className="relative card2 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+            <div data-aos="zoom-in-up" className="relative card2 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner} />
                 <div className="text-center">
                 <h1 className="text-lg font-bold">Registration Process Timeline</h1>
@@ -39,7 +39,7 @@ const New= () =>{
 
 
             </div>
-            <div className="relative card3 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+            <div data-aos="zoom-in-up" className="relative card3 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner} />
                 <div className="text-center">
                 <h1 className="text-lg font-bold">Registration Process Timeline</h1>

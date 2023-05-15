@@ -1,6 +1,9 @@
 
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import NavBar from "./components/Nav";
 import Home from './components/Home';
 import About from './components/About';
@@ -12,6 +15,10 @@ import Footer from './components/Footer';
 import {Routes,Route} from "react-router-dom";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
   return( <>
   <Routes>
   

@@ -50,7 +50,7 @@ function About() {
             <div className=" flex  justify-between items-center max-md:flex-col max-md:px-5 w-full h-auto">
                 
                 {/* Text Section */}
-                <div className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full p-4 md:p-9 lg:p-9 xl:p-9 flex flex-col justify-center items-center">
+                <div data-aos="fade-right" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full p-4 md:p-9 lg:p-9 xl:p-9 flex flex-col justify-center items-center">
                     <h1 className="text-[#00a6a6] font-bold max-md:text-2xl md:text-[30px] lg:text-4xl uppercase pb-[20px] mb-4">About The University Of Computer Studies Maubin</h1>
                     <p className="text-base lg:text-lg text-justify">&nbsp;&nbsp;&nbsp;&nbsp;University of Computer Studies (Maubin), located in Maubin Township, about 100 km
                                 (62 miles) from West of Yangon, is one of three computer universities in Ayeyarwady Region. The
@@ -61,7 +61,7 @@ function About() {
                                 Computer Studies (Maubin).</p>
                 </div>
                 {/* Logo Section */}
-                <div className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full flex justify-center items-center object-cover mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+                <div data-aos="fade-left" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full flex justify-center items-center object-cover mt-4 md:mt-0 lg:mt-0 xl:mt-0">
                     <img className="w-[150px] sm:w-[250px] md:w-[300px] lg:w-[350px] xl:w-[400px] h-[150px] sm:h-[250px] md:h-[300px] lg:h-[350px] xl:h-[400px]" src={Banner} />
                 </div>
                 
@@ -69,7 +69,7 @@ function About() {
             <div className="w-full font-robo  max-md:px-5 py-20 px-10  bg-sky-100 mt-[70px] flex justify-between items-center flex-col gap-y-8     lg:flex-row">
             
                     {/* Vision Statement */}
-                    <div className=" max-md:w-full max-md:h-auto  w-[50%] h-[350px] max-lg:px-5 max-lg:py-12  lg:px-8 lg:py-10 xl:px-10 xl:py-16 bg-[#f3f3f3] mx-2 shadow-lg rounded-lg  text-justify md:w-[80%]">
+                    <div  data-aos="zoom-in" className=" max-md:w-full max-md:h-auto  w-[50%] h-[350px] max-lg:px-5 max-lg:py-12  lg:px-8 lg:py-10 xl:px-10 xl:py-16 bg-[#f3f3f3] mx-2 shadow-lg rounded-lg  text-justify md:w-[80%]">
                         
                         <h1 className="w-full text-center max-md:text-2xl text-3xl mb-5 font-bold text-[#00a6a6]">VISION STATEMENT</h1>
                         <p className="w-full  text-base font-medium">
@@ -77,7 +77,7 @@ function About() {
                         </div>
                         
                         {/* Mission Statement */}
-                        <div className="max-md:w-full max-md:h-auto w-[50%] h-[350px] max-lg:px-5 max-lg:py-12 lg:px-8 lg:py-10 xl:px-10 xl:py-16 mx-2 bg-[#f3f3f3] shadow-lg rounded-lg text-justify  md:w-[80%] ">
+                        <div  data-aos="zoom-in" className="max-md:w-full max-md:h-auto w-[50%] h-[350px] max-lg:px-5 max-lg:py-12 lg:px-8 lg:py-10 xl:px-10 xl:py-16 mx-2 bg-[#f3f3f3] shadow-lg rounded-lg text-justify  md:w-[80%] ">
                         <h1 className="w-full   text-center max-md:text-2xl text-3xl mb-5 font-bold text-[#00a6a6]">MISSION STATEMENT</h1>
                         <p className="w-full  text-base font-medium">
                         &nbsp; The University of Computer Studies (Maubin) is committed to sharing knowledge about computer  science and computer technology, educating students to be successful, ethical, and effective  problem-solvers and lifelong learners, creating a learning environment that fosters critical thinking and creativity, and enabling graduates to be well-prepared for professional careers with a strong emphasis on autonomy and innovation in the Computer Science and Technological industry.</p>
