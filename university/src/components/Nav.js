@@ -62,7 +62,7 @@ function NavBar() {
     {name:"ABOUT",path:"About"},
     {name:"IUC",path:"Iuc"},
     {name:"COURSE",path:"Course"},
-    {name:"NEW&EVENTS",path:"New"},
+    {name:"NEWS&EVENTS",path:"New"},
   ]
 
   const [isOpen, setIsOpen] = useState(false);
@@ -93,7 +93,7 @@ function NavBar() {
         <ul className={` xl:mr-24  max-lg:bg-[#f3f3f3] max-lg:w-80 max-lg:bg-opacity-90  max-lg:backdrop-blur-xl  pr-5 lg:h-auto h-screen max-lg:pt-10 lg:static absolute top-0 duration-500 ease-linear ${!isOpen ? "right-[-100%]" : "right-0"}`}>
           {Links.map((navlink) => (
             <li className=" lg:inline-block lg:mx-3 xl:mx-6 max-lg:my-6 lg:border-b-4 lg:border-transparent lg:hover:border-[#00a6a6] duration-500 " key={navlink.name}>
-              <Link to={navlink.path} spy={true} smooth={true} duration={800} offset={-50} activeClass="text-[#00a6a6]" className={`hover:text-[#00a6a6] select-none max-lg:font-semibold max-lg:mb-10  max-lg:text-xl max-lg:font-pop text-xl py-1 inline-block font-medium
+              <Link to={navlink.path} spy={true} smooth={true} duration={800} offset={-30} activeStyle={{ color: "#00a6a6" }} className={`hover:text-[#00a6a6] select-none max-lg:font-semibold max-lg:mb-10  max-lg:text-xl max-lg:font-pop text-xl py-1 inline-block font-medium
                text-gray-700 max-lg:border-b-4 max-lg:border-transparent
                   max-lg:hover:border-[#00a6a6] duration-500 max-lg:w-auto  max-lg:ml-10 text-center cursor-pointer `} onClick={handleLinkClick}       >{navlink.name}</Link>
             </li>

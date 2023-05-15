@@ -62,7 +62,7 @@ function About() {
                 </div>
                 {/* Logo Section */}
                 <div className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full flex justify-center items-center object-cover mt-4 md:mt-0 lg:mt-0 xl:mt-0">
-                    <img className="w-[100px] sm:w-[250px] md:w-[300px] lg:w-[400px] xl:w-[300px] h-[150px] sm:h-[250px] md:h-[300px] lg:h-[400px] xl:h-[300px]" src={Banner} />
+                    <img className="w-[150px] sm:w-[250px] md:w-[300px] lg:w-[350px] xl:w-[400px] h-[150px] sm:h-[250px] md:h-[300px] lg:h-[350px] xl:h-[400px]" src={Banner} />
                 </div>
                 
             </div>

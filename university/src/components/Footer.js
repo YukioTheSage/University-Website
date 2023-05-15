@@ -1,14 +1,15 @@
 import React from "react";
-import Banner from "../images/Logo.png"
+import Banner from "../images/Logo.png";
+import {Link} from "react-scroll";
 const Footer= () =>{
     return(
         
-        <section id="Footer" className="w-full ">
-            <div className=" bg-[#f3f4f6] max-lg:flex-col max-lg:items-center flex justify-around mb-[10px] ">
+        <section id="Footer" className="w-full  ">
+            <div className=" bg-[#f3f4f6] max-lg:flex-col max-lg:items-center max-lg:px-5 max-sm:px-3 flex justify-around mb-[10px]">
             <div className="flex flex-col items-center ">
-                <div className="flex justify-center"> 
-                <img className="w-[150px] h-[150px] max-lg:hidden" src={Banner} />
-                <div className="  w-full h-auto text-center pl-[10px]">
+                <div className="flex justify-center "> 
+                <img className="w-[100px] h-[100px] mt-10 max-lg:hidden" src={Banner} />
+                <div className=" max-lg:w-full xl:w-[340px] lg:w-[340px] h-auto text-center pl-[10px]">
                     <h1 className="my-3 text-[#00a6a6] font-bold text-2xl max-sm:text-xl">UNIVERSITY OF COMPUTER STUDIES, MAUBIN</h1>
                     <p className="max-sm:text-sm">Address: Between Ward 1 and 2, on Sein Mya Kan Thar Street, Maubin, Ayeyarwaddy Region, Myanmar.</p>
                     {/* Footer Email */}
@@ -29,12 +30,12 @@ const Footer= () =>{
             {/* CATEGORY */}
             <div className="flex flex-col items-center" >
                 <h1 className="text-2xl max-sm:text-xl my-3 font-bold text-[#00a6a6]">CATEGORY</h1>
-                <a className="px-4 font-[500]  text-[18px] hover:text-[#00a6a6]" href="#Home">HOME</a>
-            <a className="px-4 font-[500] text-[18px hover:text-sky-500" href="#About">ABOUT</a>
+                <Link spy={true} smooth={true} duration={800} offset={-30} activeStyle={{ color: "#00a6a6" }}  className="px-4 font-[500]  text-[18px] hover:text-[#00a6a6]" to="Home">HOME</Link>
+            <Link spy={true} smooth={true} duration={800} offset={-30} activeStyle={{ color: "#00a6a6" }}  className="px-4 font-[500] text-[18px hover:text-sky-500" to="About">ABOUT</Link>
 
-            <a className="px-4 font-[500] text-[18px] hover:text-[#00a6a6] hover:duration-500" href="#IUC" >IUC</a>
-            <a className="px-4 font-[500] text-[18px] hover:text-[#00a6a6] hover:duration-500" href="#Course">COURSE</a>
-            <a className="px-4 font-[500] text-[18px] hover:text-[#00a6a6] hover:duration-500" href="#New" >NEW&EVENTS</a>
+            <Link spy={true} smooth={true} duration={800} offset={-30} activeStyle={{ color: "#00a6a6" }}  className="px-4 font-[500] text-[18px] hover:text-[#00a6a6] hover:duration-500" to="iuc" >IUC</Link>
+            <Link spy={true} smooth={true} duration={800} offset={-30} activeStyle={{ color: "#00a6a6" }}  className="px-4 font-[500] text-[18px] hover:text-[#00a6a6] hover:duration-500" to="Course">COURSE</Link>
+            <Link spy={true} smooth={true} duration={800} offset={-30} activeStyle={{ color: "#00a6a6" }}  className="px-4 font-[500] text-[18px] hover:text-[#00a6a6] hover:duration-500" to="New" >NEW&EVENTS</Link>
             </div>
             {/* SOCIAL LINKS */}
             <div className="flex flex-col items-center"> 

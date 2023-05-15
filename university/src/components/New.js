@@ -2,51 +2,79 @@ import React from "react";
 import Banner from "../images/new.jpg";
 // import Banner2 from "../images/new2.jpg";
 
+import { useNavigate } from 'react-router-dom';
+
 
 const New= () =>{
+    const navigate =useNavigate();
+    
     
     return(
         
-        <section  id="New" className="w-full mb-[50px] pt-28 px-28 md:px-20 sm:px-12 max-sm:px-12 pb-10 ">
+        <section  id="New" className="w-full mb-[50px] pt-28 xl:px-28 md:px-12 max-sm:px-20 pb-10 ">
             <h1 className="text-center text-4xl font-robo font-bold mb-8 text-[#00a6a6] ">New & Events</h1>
-            <div className="w-full h-auto grid  gap-10  xl:gap-28 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+            <div className="w-full h-auto grid  gap-10 md:gap-12 xl:gap-28  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
-            <div className="card1 shadow-xl border-2 border-solid rounded-[10px]  h-[400px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+            <div className="relative card1 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+                <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner} />
+                <div className="text-center">
+                <h1 className="text-lg font-bold">Registration Process Timeline</h1>
+                <p>dflkjpfk;lkoaefg</p>
+                
+                </div>
+                <button onClick={() => navigate("/newdetail/1")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                
+
+
+            </div>
+            <div className="relative card2 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+                <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner} />
+                <div className="text-center">
+                <h1 className="text-lg font-bold">Registration Process Timeline</h1>
+                <p>dflkjpfk;lkoaefg</p>
+                
+                </div>
+                <button onClick={() => navigate("/newdetail/2")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                
+
+
+            </div>
+            <div className="relative card3 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+                <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner} />
+                <div className="text-center">
+                <h1 className="text-lg font-bold">Registration Process Timeline</h1>
+                <p>dflkjpfk;lkoaefg</p>
+                
+                </div>
+                <button onClick={() => navigate("/newdetail/3")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                
+
+
+            </div>
+            {/* <div className="relative card2 shadow-xl border-2 border-solid rounded-[10px]  h-[400px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-3xl border-t-0 " src={Banner} />
                 <div className="text-center">
                 <h1 className="text-lg font-bold">Registration Process Timeline</h1>
                 <p>dflkjpfk;lkoaefg</p>
                 
                 </div>
-                <button className="w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                <button onClick={() => navigate("/newdetail/2")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
                 
 
 
             </div>
-            <div className="card1 shadow-xl border-2 border-solid rounded-[10px]  h-[400px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
+            <div className="relative card3 shadow-xl border-2 border-solid rounded-[10px]  h-[400px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-3xl border-t-0 " src={Banner} />
                 <div className="text-center">
                 <h1 className="text-lg font-bold">Registration Process Timeline</h1>
                 <p>dflkjpfk;lkoaefg</p>
                 
                 </div>
-                <button className="w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                <button onClick={() => navigate("/newdetail/3")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
                 
 
 
-            </div>
-            <div className="card1 shadow-xl border-2 border-solid rounded-[10px]  h-[400px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
-                <img className="h-1/2 w-full rounded-t-3xl border-t-0 " src={Banner} />
-                <div className="text-center">
-                <h1 className="text-lg font-bold">Registration Process Timeline</h1>
-                <p>dflkjpfk;lkoaefg</p>
-                
-                </div>
-                <button className="w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
-                
-
-
-            </div>
+            </div> */}
             
             
             
