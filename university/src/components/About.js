@@ -50,7 +50,7 @@ function About() {
             <div className=" flex  justify-between items-center max-md:flex-col max-md:px-5 w-full h-auto">
                 
                 {/* Text Section */}
-                <div data-aos="fade-right" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full p-4 md:p-9 lg:p-9 xl:p-9 flex flex-col justify-center items-center">
+                <div data-aos="zoom-in" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full p-4 md:p-9 lg:p-9 xl:p-9 flex flex-col justify-center items-center">
                     <h1 className="text-[#00a6a6] font-bold max-md:text-2xl md:text-[30px] lg:text-4xl uppercase pb-[20px] mb-4">About The University Of Computer Studies Maubin</h1>
                     <p className="text-base lg:text-lg text-justify">&nbsp;&nbsp;&nbsp;&nbsp;University of Computer Studies (Maubin), located in Maubin Township, about 100 km
                                 (62 miles) from West of Yangon, is one of three computer universities in Ayeyarwady Region. The
@@ -61,7 +61,7 @@ function About() {
                                 Computer Studies (Maubin).</p>
                 </div>
                 {/* Logo Section */}
-                <div data-aos="fade-left" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full flex justify-center items-center object-cover mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+                <div data-aos="zoom-in" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full flex justify-center items-center object-cover mt-4 md:mt-0 lg:mt-0 xl:mt-0">
                     <img className="w-[150px] sm:w-[250px] md:w-[300px] lg:w-[350px] xl:w-[400px] h-[150px] sm:h-[250px] md:h-[300px] lg:h-[350px] xl:h-[400px]" src={Banner} />
                 </div>
                 

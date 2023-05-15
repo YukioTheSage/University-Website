@@ -11,7 +11,7 @@ const New= () =>{
     
     return(
         
-        <section  id="New" className="w-full mb-[50px] pt-28 xl:px-28 md:px-12 max-sm:px-20 pb-10 ">
+        <section  id="New" className="w-full mb-[50px] pt-28 xl:px-28 md:px-10 max-sm:px-12 pb-10 ">
             <h1 className="text-center text-4xl font-robo font-bold mb-8 text-[#00a6a6] ">New & Events</h1>
             <div className="w-full h-auto grid  gap-10 md:gap-12 xl:gap-28  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
@@ -22,7 +22,7 @@ const New= () =>{
                 <p>dflkjpfk;lkoaefg</p>
                 
                 </div>
-                <button onClick={() => navigate("/newdetail/1")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                <button onClick={() => navigate("/newdetail/1")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
                 
 
 
@@ -34,7 +34,7 @@ const New= () =>{
                 <p>dflkjpfk;lkoaefg</p>
                 
                 </div>
-                <button onClick={() => navigate("/newdetail/2")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                <button onClick={() => navigate("/newdetail/2")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
                 
 
 
@@ -46,7 +46,7 @@ const New= () =>{
                 <p>dflkjpfk;lkoaefg</p>
                 
                 </div>
-                <button onClick={() => navigate("/newdetail/3")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-[10px]">More Detail</button>
+                <button onClick={() => navigate("/newdetail/3")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
                 
 
 

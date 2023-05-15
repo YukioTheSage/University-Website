@@ -83,7 +83,7 @@ function NavBar() {
         </div>
          <div className="z-20 rounded-lg border-2 px-3 py-2 bg-[#00a6a6] mr-4 lg:hidden">
         <img
-          className="w-8 h-8 max-sm:w-4 max-sm:h-4 duration-500 cursor-pointer lg:hidden"
+          className="w-8 h-8 max-sm:w-5 max-sm:h-5 duration-500 cursor-pointer lg:hidden"
           
           src={isOpen ? Close : Bar}
           alt="bar"

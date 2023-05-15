@@ -11,7 +11,7 @@ const Iuc= () => {
         <div className=" w-full max-lg:h-auto max-lg:pt-28 max-lg:pb-5 h-[528px] 
             flex justify-between items-center max-lg:flex-col mx-auto ">
                 {/* Text Section */}
-                <div data-aos="fade-right" className=" max-lg:w-full  lg:w-[50%] h-full   max-lg:mx-auto   max-lg:pt-0  lg:pt-28 max-md:px-7 md:px-10 lg:px-10">
+                <div data-aos="zoom-in" className=" max-lg:w-full  lg:w-[50%] h-full   max-lg:mx-auto   max-lg:pt-0  lg:pt-28 max-md:px-7 md:px-10 lg:px-10">
                 <h1 className="w-full text-[#00a6a6]  font-bold max-md:text-2xl md:text-4xl lg:text-4xl pb-[20px] ">INTERIM UNIVERSITY COUNCIL</h1>
                 <p className=" w-full  max-lg:text-base lg:text-lg font-medium  mb-[8px] text-justify">&nbsp;&nbsp;&nbsp;As for University of Computer Studies (Maubin), Interim University Council was founded to
 become the one which actually represents students, teachers and staffs of this
@@ -22,7 +22,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                
                 </div>
                 {/* Image Section */}
-                <div data-aos="fade-left" className="w-[50%] h-full flex justify-center items-center object-cover max-lg:hidden "> 
+                <div data-aos="zoom-in" className="w-[50%] h-full flex justify-center items-center object-cover max-lg:hidden "> 
                  <img className="w-[447px] h-[222px] " src={Banner}  />
                  </div>
             </div>
