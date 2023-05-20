@@ -12,7 +12,7 @@ const New= () =>{
     return(
         
         <section  id="New" className="w-full mb-[50px] pt-28 xl:px-28 md:px-10 max-sm:px-12 pb-10 ">
-            <h1 className="text-center text-4xl font-robo font-bold mb-8 text-[#00a6a6] ">New & Events</h1>
+            <h1 className="text-center text-4xl font-robo font-bold mb-8 text-[#00a6a6] uppercase">News & Events</h1>
             <div className="w-full h-auto grid  gap-10 md:gap-12 xl:gap-28  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
             <div data-aos="zoom-in-up" className="relative card1 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">

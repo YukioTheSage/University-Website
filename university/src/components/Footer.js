@@ -55,7 +55,7 @@ const Footer= () =>{
            
           {/* Sub Footer */}
           <div className="w-full mx-auto  bg-[#00a6a6] p-[12px]">
-                <p className="text-center font-medium text-lg text-white font-pop">Copyright 2023 © UCSMUB | Powered by Quokka Studio</p>
+                <p className="text-center font-medium text-lg text-white font-pop">Copyright 2023 © UCSMUB </p>
             </div>  
         </section>
         

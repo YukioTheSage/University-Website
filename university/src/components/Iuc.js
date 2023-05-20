@@ -27,55 +27,59 @@ educational opportunities; and to cooperate with the National Unity Government m
                  </div>
             </div>
             {/* THE CORE COMMITTEE OF IUC */}
-            <div className=" w-full h-auto border-t">
+            <div className=" w-full h-auto border-t font-robo">
                 <h1 className=" md:text-4xl max-md:text-3xl pt-8 font-bold text-center text-[#00a6a6] mb-14">THE CORE COMMITTEE OF IUC</h1>
                 <div className="  w-full h-full p-5 mx-auto  flex flex-wrap gap-x-20 gap-y-24 justify-center items-center text-justify">
-                <div data-aos="fade-up" className="card1  max-md:overflow-y-scroll  w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+
+                <div data-aos="fade-up" className="card1  max-md:overflow-y-scroll  w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
                         <div className="max-md:-translate-y-0  -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center">Academic Affairs Committee </h1>
-                        <p className="text-[16px]" >The Academic Committee is implementing academic programs for teachers and students. The academic programs include</p>
+                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Academic Affairs Committee</h1>
+                        <p className="text-[14px]">The Academic Affairs Committee is executing academic programs for the CDM teachers and students. The committee comprises</p>
                         <ul className="list-disc text-[14px] pl-[15px]">
-                            <li className="">Capacity building/knowledge sharing programs for teachers</li>
-                            <li>Creating courses for undergraduate students</li>
-                            <li>Creating extracurricular courses for personal and professional development</li>
+                            <li className="">Creating new curriculum compliance with institutional and accreditation standards for the CDM students</li>
+                            <li>Supporting necessary capacity building and knowledge sharing programs for the CDM students and teachers</li>
+                            
+                            
+                            <li>Establishing rules and regulations of the requirements of professional development</li>
                         </ul>
-                        <p className="text-[14px]" >The academic committee manages the academic affairs of the students. The academic committee also develops the academic policies to be applied for the interim as well as future academic programs.</p>
+                        <p className="text-[14px]" >The Academic Affairs Committee manages curriculum development and academic policies concerned academic affairs, and plans future education programs of the CDM students and teachers.</p>
                     
                         </div>
                        </div>
-                    <div data-aos="fade-up" className="card2  max-md:overflow-y-scroll w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                    <div data-aos="fade-up" className="card2  max-md:overflow-y-scroll w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center">Student Affairs Committee</h1>
-                        <p className="text-[16px]" >The Academic Committee is implementing academic programs for teachers and students. The academic programs include</p>
+                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Student Affairs Committee</h1>
+                        <p className="text-[14px]" >The specific goals and objectives of the Student Affairs Committee are</p>
                         <ul className="list-disc text-[14px] pl-[15px]">
-                            <li className="">Capacity building/knowledge sharing programs for teachers</li>
-                            <li>Creating courses for undergraduate students</li>
-                            <li>Creating extracurricular courses for personal and professional development</li>
+                            <li className="">Collecting and maintaining the CDM students' data</li>
+                            <li>Managing Enrollment processes and procedures</li>
+                            <li>Creating the CDM students' education opportunities</li>
+                            <li>Scheduling timetable for delivering targeted courses and programs</li>
                         </ul>
-                        <p className="text-[14px]" >The academic committee manages the academic affairs of the students. The academic committee also develops the academic policies to be applied for the interim as well as future academic programs.</p>
+                        <p className="text-[14px]" >The activities of the committee serves the development of the CDM students' education.</p>
                     
                         </div>
                        </div>
-                       <div data-aos="fade-up" className="card3  max-md:overflow-y-scroll w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                       <div data-aos="fade-up" className="card3  max-md:overflow-y-scroll w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center">Research and Innovation Committee</h1>
-                        <p className="text-[16px]" >The Academic Committee is implementing academic programs for teachers and students. The academic programs include</p>
+                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Information and External Relations Committee</h1>
+                        <p className="text-[14px]" >Information and External Relations Committee is responsible for</p>
                         <ul className="list-disc text-[14px] pl-[15px]">
-                            <li className="">Capacity building/knowledge sharing programs for teachers</li>
-                            <li>Creating courses for undergraduate students</li>
-                            <li>Creating extracurricular courses for personal and professional development</li>
+                            <li className="">Formulating and executing comprehensive communication plans to effectively convey the university's mission, vision, and values</li>
+                            <li>Supervising website development and social media management</li>
+                            <li>Engaging with key stakeholders such as alumni and donors, and representing the institution at external events and forums</li>
                         </ul>
-                        <p className="text-[14px]" >The academic committee manages the academic affairs of the students. The academic committee also develops the academic policies to be applied for the interim as well as future academic programs.</p>
+                        <p className="text-[14px]" >The committee provides communication procedures of the university in interim period.</p>
                     
                         </div>
                        </div>
-                    <div data-aos="fade-up" className="card4  max-md:overflow-y-scroll w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                      {/* <div data-aos="fade-up" className="card4  max-md:overflow-y-scroll w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
@@ -104,7 +108,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                         <p className="text-[14px]" >The academic committee manages the academic affairs of the students. The academic committee also develops the academic policies to be applied for the interim as well as future academic programs.</p>
                     
                         </div>
-                       </div>
+                       </div> */}
                    
                 </div>
             </div>
