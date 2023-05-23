@@ -1,9 +1,15 @@
 import React,{useEffect} from "react";
 import { useNavigate, useParams,Link } from "react-router-dom";
-import Banner from "../images/new.jpg";
-import Banner2 from "../images/Logo.png";
+import Banner from "../images/edx course.jpg";
+import Banner2 from "../images/news2.jpg";
+import Banner3 from "../images/news3.jpg";
+import Logo from "../images/Logo.png";
+
 
 const NewDetail = () => {
+  const handleClick = () => {
+        
+    window.open ('https://www.facebook.com/profile.php?id=100087453985817&mibextid=ZbWKwL','_blank');}
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -11,24 +17,35 @@ const NewDetail = () => {
   const newsItems = [
     {
       id: 1,
-      title: "First news item",
+      title: "ကွန်ပျူတာတက္ကသိုလ် (မအူပင်)ရှိ CDM ဆရာ၊ ဆရာမများနှင့် CDM ကျောင်းသား၊ ကျောင်းသူများသို့ အသိပေးအကြောင်းကြားခြင်း ",
       src: Banner,
-      summary: "Summary of first news item",
-      content: "Content of first news item",
+      
+      content: `အမျိုးသားညီညွတ်ရေးအစိုးရ၊ ပညာရေးဝန်ကြီးဌာနအနေနှင့် EdX ပညာရေး အဖွဲအစည်းတို့ ပူးပေါင်းသည့် EdX MOOC တွင် လေ့လာနိုင်မည့် သင်တန်းများအား google form registration ခေါ်ယူခဲ့ရာ CDM ကျောင်းသူ၊ ကျောင်းသားများနှင့် CDM ဆရာ၊ ဆရာမများ အများအပြား လျှောက်ထားခဲ့ကြပြီး  EdX Admission Team ကလည်း ပထမဆုံးအသုတ်အနေဖြင့် EdX MOOC တွင် သင်တန်းသားများအား enrolment ပြုလုပ်ထားပြီ ဖြစ်ကြောင်းကြေငြာချက်ထုတ်ပြန်ခဲ့ပါသည်။ 
+      သို့ဖြစ်ပါ၍ ပထမအသုတ်တွင် အကြောင်းအမျိုးမျိုးကြောင့်  တက်ရောက်ခွင့် မလျှောက်ရသေးသူများအားလည်း ထပ်မံခေါ်ယူသွားမည် ဖြစ်ပါသဖြင့် ကွန်ပျူတာတက္ကသိုလ် (မအူပင်) အနေဖြင့် မိမိတို့တက္ကသိုလ်မှ သင်တန်းတက်ရောက်လိုသော  CDM ဆရာ၊ ဆရာမများနှင့် CDM ကျောင်းသား၊ ကျောင်းသူများသည်   သင်တန်းလျှောက်ထားရန် Google form registration နှင့် CDM ဖြစ်ကြောင်း အထောက်အထားများ အတွက် မိမိတို့၏ တက္ကသိုလ်ကောင်စီသို့ဆက်သွယ်မေးမြန်းတောင်းခံနိုင်ပါကြောင်း ယာယီတက္ကသိုလ်ကောင်စီမှ အသိပေး အကြောင်းကြားအပ်ပါသည်။`,
     },
     {
       id: 2,
-      title: "Second news item",
-      src:Banner,
-      summary: "Summary of second news item",
-      content: "Content of second news item",
+      title: "CDM ကျောင်းသား၊ ကျောင်းသူများအား ကျေးဇူးတင်လွှာ",
+      src:Banner2,
+      
+      content: `၂၀၂၁ ခုနှစ်၊ ဖေဖော်ဝါရီလ (၁)ရက်နေ့မှ စ၍ စစ်အာဏာရှင်၏ မတရားအာဏာသိမ်းယူမှုသည် (၂)နှစ်ကျော် ကာလအတွင်းသို့ ရောက်ရှိခဲ့ပြီးဖြစ်သည်။ထိုသို့ အချိန်ကာလတစ်ခုအထိ ကြာမြင့်ခဲ့ပြီ ဖြစ်သော်လည်း ကွန်ပျူတာတက္ကသိုလ်(မအူပင်)တွင် ယနေ့အချိန်ထိ အမှန်တရားဘက်မှ စိတ်အားထက်သန်စွာ ရပ်တည်နေဆဲဖြစ်သော CDM ကျောင်းသား၊ကျောင်းသူများ များစွာ ကျန်ရှိနေကြောင်း ကြားသိရပါသည်။
+
+      စစ်ကျွန်ပညာရေးစနစ်အောက်တွင် ပညာဆက်လက်မသင်ကြားဘဲ မတရားမှုကိုဆန့်ကျင်၍ အကြမ်းမဖက်အာဏာဖီဆန်ရေးလှုပ်ရှားမှုတွင် ပါဝင်နေဆဲဖြစ်သော ကွန်ပျူတာတက္ကသိုလ်(မအူပင်)မှ CDM ကျောင်းသား၊ကျောင်းသူများအား ယာယီတက္ကသိုလ်ကောင်စီမှ ကျေးဇူးအထူးပင်တင်ရှိပါကြောင်းလေးစားစွာမှတ်တမ်းတင်ဂုဏ်ပြုအပ်ပါသည်။
+      `,
     },
     {
       id: 3,
-      title: "Third news item",
-      src:Banner,
-      summary: "Summary of third news item",
-      content: "Content of third news item",
+      title: "မြန်မာနှစ်ဆန်း (၁)ရက်နေ့၊ နှစ်သစ်ဆုတောင်း",
+      src:Banner3,
+      
+      content: `
+      ယခုအချိန်အခါသည် မြန်မာလူမျိုးတို့၏ နှစ်ဟောင်းမှသည် နှစ်သစ်သို့ကူးပြောင်းသည့် မြန်မာ့ရိုးရာနှစ်သစ်ကူး အခါသမယဖြစ်ပါသည်။ အစဥ်အလာအရ နှစ်သစ်သို့ပျော်ရွှင်စွာ ကူးပြောင်းရမည် ဖြစ်သော်လည်း မြန်မာပြည်သူ၊ ပြည်သားများအနေဖြင့် ၂၀၂၁ခုနှစ်၊ ဖေဖော်ဝါရီလ (၁)ရက်နေ့မှစ၍ စစ်တပ်၏မတရား အာဏာသိမ်းမှုပြီးနောက် စစ်အာဏာရှင်စနစ်ဆိုး၏ လူမဆန်သော ရက်စက်မှုများကို နေ့စဥ်နှင့်အမျှ ရင်ဆိုင်ကြုံတွေ့ နေကြရပါသည်။ လတ်တလောအချိန် ကာလတွင်လည်း ထိုကဲ့သို့ အဖြစ်အပျက်များကို ကြုံတွေ့ခဲ့ကြရသည့် မြန်မာပြည်သူပြည်သားများ အနေဖြင့် မိရိုးဖလာ ယဥ်ကျေးမှုတစ်ခုဖြစ်သည့် မြန်မာ့ရိုးရာနှစ်သစ်ကူးသည် ပျော်ရွှင်သောအဓိပ္ပာယ်ကို ဖော်ကျူးသည့် နှစ်သစ်ကူးအချိန်သမယတစ်ခု မဖြစ်နိုင်ပါ။ 
+      ကွန်ပျူတာတက္ကသိုလ် (မအူပင်)၊ ယာယီတက္ကသိုလ်ကောင်စီအနေဖြင့် မတရားမှုကိုဆန့်ကျင်ပြီး အမှန်တရားဘက်မှ ရပ်တည်ခဲ့ကြသည့်  မြန်မာနိုင်ငံသူ၊ နိုင်ငံသားအားလုံး၊ တိုင်းရင်းသား၊ ညီအစ်ကို မောင်နှမများအားလုံး၊ တစ်နိုင်ငံလုံးရှိ ပြည်သူ့ကာကွယ်ရေးတပ်ဖွဲ့ဝင်များအားလုံး၊ အကြမ်းမဖက် အာဏာဖီဆန်ရေး လှုပ်ရှားမှု တွင်ပါဝင်ခဲ့ကြသော  နယ်ပယ် အသီးသီးမှ CDM ဝန်ထမ်းများအားလုံး၊ ကွန်ပျူတာတက္ကသိုလ် ကျောင်းအသီးသီးမှ CDM ဆရာ၊ ဆရာမများ၊ CDM ကျောင်းသား၊ ကျောင်းသူများအားလုံးနှင့်အတူ တသားတည်းရပ်တည်ပြီး ပျော်စရာမဟုတ်သော၊ တော်လှန်သင်္ကြန် တွင် စစ်အာဏာရှင်စနစ် အမြန်ဆုံးချုပ်ငြိမ်းပါစေ၊ တော်လှန်‌ရေးအမြန်ပြီးမြောက်အောင်မြင်ပြီး စိုးရိမ်ကြောင့်ကြကင်းကြပါစေ၊ နှစ်သစ်ကိုကူးပြောင်းသည့် နှစ်သစ်ကူးအချိန်သမယမှစ၍ မြန်မာပြည်သူ၊ ပြည်သားအပေါင်း စိတ်နှလုံးချမ်းမြေ့ပါစေကြောင်း အကြမ်းဖက်စစ်ကောင်စီ၏ လုပ်ရပ်များကို ယနေ့တိုင် ဆန့်ကျင်တော်လှန်နေဆဲဖြစ်သည့် ဖက်ဒရယ်ဒီမိုကရေစီလိုလားသော ပြည်သူတစ်ရပ်လုံးနှင့်အတူ  မြန်မာနှစ်သစ်အတွက် ဆုတောင်းမေတ္တာပို့သအပ်ပါသည်။
+      
+      
+                                                                                         
+      
+      `,
     },
   ];
 
@@ -52,11 +69,11 @@ const NewDetail = () => {
           </button>
         <div className="w-full h-full lg:flex xl:flex max-lg:flex-col justify-between items-center"> 
           <div className="w-full h-full mr-3">
-          <h1 className="font-bold text-center mb-3 text-4xl">
+          <h1 className="font-bold text-center mb-3 text-xl">
             {selectedNewsItem.title}
           </h1>
-          <img className="w-[300px] h-[300px] mx-auto mb-3" src={selectedNewsItem.src} alt={selectedNewsItem.title} />
-          <p className="text-center mb-5">{selectedNewsItem.content}</p>
+          <img className="w-[500px] h-[600px] mx-auto mb-3" src={selectedNewsItem.src} alt={selectedNewsItem.title} />
+          <p className="text-justify leading-8 mb-5">{selectedNewsItem.content}</p>
           </div>
             <div className="w-[400px] h-[450px] max-lg:w-full max-lg:h-auto rounded-lg shadow-lg ">
           <h2 className="px-2 py-5 bg-[#f3f4f6] font-bold text-left mb-5 text-2xl text-[#00a6a6] border-b-2 border-solid border-[#00a6a6]">
@@ -66,7 +83,7 @@ const NewDetail = () => {
             {otherNewsItems.map((item) => (
               <li
                 key={item.id}
-                className="cursor-pointer text-[#00a6a6] px-2 py-4 border-b border-slate-200"
+                className="cursor-pointer text-[#00a6a6] px-2 py-4 border-b border-slate-500"
                 onClick={() => handleNewsItemClick(item.id)}
               >
                 {item.title}
@@ -81,7 +98,7 @@ const NewDetail = () => {
             <div className=" bg-[#f3f4f6] max-lg:flex-col max-lg:items-center max-lg:px-5 max-sm:px-3 flex justify-around mb-[10px] ">
             <div className="flex flex-col items-center ">
                 <div className="flex justify-center"> 
-                <img className="w-[100px] h-[100px] mt-10 max-lg:hidden" src={Banner2} />
+                <img className="w-[100px] h-[100px] mt-10 max-lg:hidden" src={Logo} />
                 <div className=" max-lg:w-full xl:w-[340px] lg:w-[340px]  h-auto text-center pl-[10px]">
                     <h1 className="my-3 text-[#00a6a6] font-bold text-2xl max-sm:text-xl">UNIVERSITY OF COMPUTER STUDIES, MAUBIN</h1>
                     <p className="max-sm:text-sm">Address: Between Ward 1 and 2, on Sein Mya Kan Thar Street, Maubin, Ayeyarwaddy Region, Myanmar.</p>
@@ -112,7 +129,7 @@ const NewDetail = () => {
             {/* SOCIAL LINKS */}
             <div className="flex flex-col items-center"> 
                 <h1 className=" text-2xl max-sm:text-xl my-3 font-bold text-[#00a6a6]">SOCIAL LINK</h1>
-                <button className="w-[80px] h-[40px]">
+                <button onClick={handleClick} className="w-[80px] h-[40px]">
                <svg className="w-[40px] h-[30px] mx-auto relative  "fill="blue"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
                 </button>
                 {/* <div className="flex justify-between items-center">
@@ -127,7 +144,7 @@ const NewDetail = () => {
            
           {/* Sub Footer */}
           <div className="w-full mx-auto  bg-[#00a6a6] p-[12px]">
-                <p className="text-center font-medium text-lg text-white font-pop">Copyright 2023 © UCSMUB | Powered by Quokka Studio</p>
+                <p className="text-center font-medium text-lg text-white font-pop">Copyright 2023 © UCSMUB</p>
             </div>  
         </section>
     </>

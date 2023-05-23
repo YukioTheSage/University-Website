@@ -42,11 +42,11 @@
 // export default About;
 
 import React from "react";
-import Banner from "../images/Logo.png";
+import Banner from "../images/about.png";
 
 function About() {
     return (
-        <section id="About" className=" w-full pt-28 ">
+        <section id="About" className=" w-full pt-24 ">
             <div className=" flex  justify-between items-center max-md:flex-col max-md:px-5 w-full h-auto">
                 
                 {/* Text Section */}
@@ -62,7 +62,7 @@ function About() {
                 </div>
                 {/* Logo Section */}
                 <div data-aos="zoom-in" className="w-full md:w-[50%] lg:w-[50%] xl:w-[50%] h-full flex justify-center items-center object-cover mt-4 md:mt-0 lg:mt-0 xl:mt-0">
-                    <img className="w-[150px] sm:w-[250px] md:w-[300px] lg:w-[350px] xl:w-[400px] h-[150px] sm:h-[250px] md:h-[300px] lg:h-[350px] xl:h-[400px]" src={Banner} />
+                    <img className="w-[450px] h-[450px] sm:w-[550px] md:w-[600px] lg:w-[650px] xl:w-[700px]  sm:h-[350px] md:h-[400px] lg:h-[650px] xl:h-[500px]" src={Banner} />
                 </div>
                 
             </div>

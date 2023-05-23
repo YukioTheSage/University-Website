@@ -1,8 +1,9 @@
 import React from "react";
-import Banner from "../images/banner2.webp";
+import Banner from "../images/iuc.jpg";
 import Banner1 from "../images/C1_icon.webp";
 import Banner2 from "../images/C2_icon.webp";
 import Banner3 from "../images/C3_icon.webp";
+import Academic from "../images/academic.svg";
 
 const Iuc= () => {
     return(
@@ -31,9 +32,10 @@ educational opportunities; and to cooperate with the National Unity Government m
                 <h1 className=" md:text-4xl max-md:text-3xl pt-8 font-bold text-center text-[#00a6a6] mb-14">THE CORE COMMITTEE OF IUC</h1>
                 <div className="  w-full h-full p-5 mx-auto  flex flex-wrap gap-x-20 gap-y-24 justify-center items-center text-justify">
 
-                <div data-aos="fade-up" className="card1  max-md:overflow-y-scroll  w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
+                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Academic} />
+
                         <div className="max-md:-translate-y-0  -translate-y-12">
                         <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Academic Affairs Committee</h1>
                         <p className="text-[14px]">The Academic Affairs Committee is executing academic programs for the CDM teachers and students. The committee comprises</p>
@@ -48,7 +50,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                    <div data-aos="fade-up" className="card2  max-md:overflow-y-scroll w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                    <div data-aos="fade-up" className="card2  max-sm:h-[auto] w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
@@ -64,7 +66,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                       <div data-aos="fade-up" className="card3  max-md:overflow-y-scroll w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                       <div data-aos="fade-up" className="card3 max-sm:h-[auto] w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
