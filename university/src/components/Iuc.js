@@ -4,6 +4,8 @@ import Banner1 from "../images/C1_icon.webp";
 import Banner2 from "../images/C2_icon.webp";
 import Banner3 from "../images/C3_icon.webp";
 import Academic from "../images/academic.svg";
+import Info from "../images/Info.webp";
+import Student from "../images/Student.svg";
 
 const Iuc= () => {
     return(
@@ -52,7 +54,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                        </div>
                     <div data-aos="fade-up" className="card2  max-sm:h-[auto] w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
+                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 bg-slate-200 rounded-[50%] border border-slate-200" src={Student} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
                         <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Student Affairs Committee</h1>
                         <p className="text-[14px]" >The specific goals and objectives of the Student Affairs Committee are</p>
@@ -68,7 +70,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                        </div>
                        <div data-aos="fade-up" className="card3 max-sm:h-[auto] w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
                         
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
+                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 bg-sky-100 rounded-[50%] border border-sky-100" src={Info} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
                         <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Information and External Relations Committee</h1>
                         <p className="text-[14px]" >Information and External Relations Committee is responsible for</p>
