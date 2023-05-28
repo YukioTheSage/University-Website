@@ -1,10 +1,10 @@
 import React from "react";
 import Banner from "../images/iuc.jpg";
-import Banner1 from "../images/C1_icon.webp";
-import Banner2 from "../images/C2_icon.webp";
-import Banner3 from "../images/C3_icon.webp";
+// import Banner1 from "../images/C1_icon.webp";
+// import Banner2 from "../images/C2_icon.webp";
+// import Banner3 from "../images/C3_icon.webp";
 import Academic from "../images/academic.svg";
-import Info from "../images/Info.webp";
+import Info from "../images/Info2.svg";
 import Student from "../images/Student.svg";
 
 const Iuc= () => {
