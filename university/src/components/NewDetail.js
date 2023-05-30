@@ -67,7 +67,7 @@ const NewDetail = () => {
           >
             Back
           </button>
-        <div className="w-full h-full lg:flex xl:flex max-lg:flex-col justify-between items-center"> 
+        <div className="w-full h-full lg:flex xl:flex max-lg:flex-col justify-between"> 
           <div className="w-full h-full mr-3">
           <h1 className="font-bold text-center mb-3 text-xl">
             {selectedNewsItem.title}

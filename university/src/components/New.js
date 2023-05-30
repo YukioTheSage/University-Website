@@ -18,11 +18,12 @@ const New= () =>{
             <div data-aos="zoom-in-up" className="relative card1 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-lg border-t-0" src={Banner} />
                 <div className="text-center">
-                <h1 className="text-lg font-bold">ကွန်ပျူတာတက္ကသိုလ် (မအူပင်)ရှိ CDM ဆရာ၊ ဆရာမများနှင့် CDM ကျောင်းသား၊ ကျောင်းသူများသို့ အသိပေးအကြောင်းကြားခြင်း </h1>
+                <h1 className="text-lg font-semibold px-3">ကွန်ပျူတာတက္ကသိုလ် (မအူပင်)ရှိ CDM ဆရာ၊ ဆရာမများနှင့် CDM ကျောင်းသား၊ ကျောင်းသူများသို့ အသိပေးအကြောင်းကြားခြင်း </h1>
                 
                 
                 </div>
-                <button onClick={() => navigate("/newdetail/1")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
+                <h2 className=" pr-2 text-lg font-medium absolute right-0 bottom-[70px]">၁၃.၃.၂၀၂၃</h2>
+                <button onClick={() => navigate("/newdetail/1")} className="absolute bottom-0 w-full  bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg ">More Detail</button>
                 
 
 
@@ -30,11 +31,13 @@ const New= () =>{
             <div data-aos="zoom-in-up" className="relative card2 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner2} />
                 <div className="text-center">
-                <h1 className="text-lg font-bold">CDM ကျောင်းသား၊ ကျောင်းသူများအား ကျေးဇူးတင်လွှာ</h1>
-                
+                <h1 className="text-lg font-semibold px-2">CDM ကျောင်းသား၊ ကျောင်းသူများအား ကျေးဇူးတင်လွှာ</h1>
+               
+
                 
                 </div>
-                <button onClick={() => navigate("/newdetail/2")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
+                <h2 className=" pr-2 text-lg font-medium absolute right-0 bottom-[70px]">၂၉.၃.၂၀၂၃</h2>
+                <button onClick={() => navigate("/newdetail/2")} className="absolute bottom-0 w-full bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
                 
 
 
@@ -42,11 +45,14 @@ const New= () =>{
             <div data-aos="zoom-in-up" className="relative card3 shadow-lg border  rounded-lg max-sm:h-[400px] sm:h-[400px]  md:h-[420px] lg:h-[420px]  xl:h-[450px] 2xl:h-[500px] sm:w-1/2 md:w-full lg:w-full xl:w-full  sm:mx-auto ">
                 <img className="h-1/2 w-full rounded-t-lg border-t-0 " src={Banner3} />
                 <div className="text-center">
-                <h1 className="text-lg font-bold">မြန်မာနှစ်ဆန်း (၁)ရက်နေ့၊ နှစ်သစ်ဆုတောင်း</h1>
+                <h1 className="text-lg font-semibold px-2">မြန်မာနှစ်ဆန်း (၁)ရက်နေ့၊ နှစ်သစ်ဆုတောင်း</h1>
+                
         
                 
                 </div>
-                <button onClick={() => navigate("/newdetail/3")} className="absolute bottom-0 w-full max-md:mt-[90px] md:mt-[87px] mt-[62px] bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
+                <h2 className=" pr-2 text-lg font-medium absolute right-0 bottom-[70px]">၁၇.၄.၂၀၂၃</h2>
+
+                <button onClick={() => navigate("/newdetail/3")} className="absolute bottom-0 w-full  bg-[#00a6a6] py-4 px-14 border-t-2 text-white  border-solid border-white font-medium rounded-b-lg">More Detail</button>
                 
 
 
