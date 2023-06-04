@@ -60,7 +60,7 @@ const NewDetail = () => {
 
   return (
     <>
-      <div className="w-full h-full p-10  ">
+      <div className="w-full h-full p-5 max-md:p-4  ">
       <button
             onClick={() => navigate("/")}
             className="mb-5 px-5 py-2 bg-blue-600 hover:bg-blue-800 text-white rounded-lg"
@@ -72,8 +72,8 @@ const NewDetail = () => {
           <h1 className="font-bold text-center mb-3 text-xl">
             {selectedNewsItem.title}
           </h1>
-          <img className="w-[500px] h-[600px] mx-auto mb-3" src={selectedNewsItem.src} alt={selectedNewsItem.title} />
-          <p className="text-justify leading-8 mb-5">{selectedNewsItem.content}</p>
+          <img className="w-[500px] h-[600px] max-md:w-full max:md:h-[100px] mx-auto mb-3" src={selectedNewsItem.src} alt={selectedNewsItem.title} />
+          <p className="text-justify leading-8 mb-5 px-3">{selectedNewsItem.content}</p>
           </div>
             <div className="w-[400px] h-[450px] max-lg:w-full max-lg:h-auto rounded-lg shadow-lg ">
           <h2 className="px-2 py-5 bg-[#f3f4f6] font-bold text-left mb-5 text-2xl text-[#00a6a6] border-b-2 border-solid border-[#00a6a6]">

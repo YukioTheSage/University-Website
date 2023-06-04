@@ -4,8 +4,8 @@ import Banner from "../images/iuc.jpg";
 // import Banner2 from "../images/C2_icon.webp";
 // import Banner3 from "../images/C3_icon.webp";
 import Academic from "../images/academic.svg";
-import Info from "../images/Info2.svg";
-import Student from "../images/Student.svg";
+import Info from "../images/hand.svg";
+import Student from "../images/Student3.svg";
 
 const Iuc= () => {
     return(
@@ -31,12 +31,12 @@ educational opportunities; and to cooperate with the National Unity Government m
             </div>
             {/* THE CORE COMMITTEE OF IUC */}
             <div className=" w-full h-auto border-t font-robo">
-                <h1 className=" md:text-4xl max-md:text-3xl pt-8 font-bold text-center text-[#00a6a6] mb-14">THE CORE COMMITTEE OF IUC</h1>
+                <h1 className=" md:text-4xl max-md:text-3xl pt-8 font-bold text-center text-[#00a6a6] mb-14 px-2">THE CORE COMMITTEE OF IUC</h1>
                 <div className="  w-full h-full p-5 mx-auto  flex flex-wrap gap-x-20 gap-y-24 justify-center items-center text-justify">
 
-                <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
                         
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Academic} />
+                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 max-md:mb-3" src={Academic} />
 
                         <div className="max-md:-translate-y-0  -translate-y-12">
                         <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Academic Affairs Committee</h1>
@@ -52,9 +52,9 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                    <div data-aos="fade-up" className="card2  max-sm:h-[auto] w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                    <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
                         
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 bg-slate-200 rounded-[50%] border border-slate-200" src={Student} />
+                        <img className="bg-[#00cfcf] w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16  rounded-[50%] border border-slate-200 max-md:mb-3" src={Student} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
                         <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Student Affairs Committee</h1>
                         <p className="text-[14px]" >The specific goals and objectives of the Student Affairs Committee are</p>
@@ -68,9 +68,9 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                       <div data-aos="fade-up" className="card3 max-sm:h-[auto] w-[350px] h-[490px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
+                       <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
                         
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 bg-sky-100 rounded-[50%] border border-sky-100" src={Info} />
+                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 bg-[#84dbff] rounded-[50%] border border-sky-100 max-md:mb-3" src={Info} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
                         <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Information and External Relations Committee</h1>
                         <p className="text-[14px]" >Information and External Relations Committee is responsible for</p>
@@ -83,36 +83,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                      {/* <div data-aos="fade-up" className="card4  max-md:overflow-y-scroll w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
-                        
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
-                        <div className="max-md:-translate-y-0 -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center">Finance and Audit Committee </h1>
-                        <p className="text-[16px]" >The Academic Committee is implementing academic programs for teachers and students. The academic programs include</p>
-                        <ul className="list-disc text-[14px] pl-[15px]">
-                            <li className="">Capacity building/knowledge sharing programs for teachers</li>
-                            <li>Creating courses for undergraduate students</li>
-                            <li>Creating extracurricular courses for personal and professional development</li>
-                        </ul>
-                        <p className="text-[14px]" >The academic committee manages the academic affairs of the students. The academic committee also develops the academic policies to be applied for the interim as well as future academic programs.</p>
-                    
-                        </div>
-                       </div>
-                       <div  data-aos="fade-up" className="card5  max-md:overflow-y-scroll w-[350px] h-[430px] p-[20px]  rounded-lg border border-slate-400  shadow-slate-200 shadow-[0_8px_8px_5px] ;">
-                        
-                        <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16" src={Banner2} />
-                        <div className="max-md:-translate-y-0  -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center">Information and External Relations Committee</h1>
-                        <p className="text-[16px]" >The Academic Committee is implementing academic programs for teachers and students. The academic programs include</p>
-                        <ul className="list-disc text-[14px] pl-[15px]">
-                            <li className="">Capacity building/knowledge sharing programs for teachers</li>
-                            <li>Creating courses for undergraduate students</li>
-                            <li>Creating extracurricular courses for personal and professional development</li>
-                        </ul>
-                        <p className="text-[14px]" >The academic committee manages the academic affairs of the students. The academic committee also develops the academic policies to be applied for the interim as well as future academic programs.</p>
-                    
-                        </div>
-                       </div> */}
+                      
                    
                 </div>
             </div>
