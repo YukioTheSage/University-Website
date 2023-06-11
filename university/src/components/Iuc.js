@@ -34,12 +34,12 @@ educational opportunities; and to cooperate with the National Unity Government m
                 <h1 className=" md:text-4xl max-md:text-3xl pt-8 font-bold text-center text-[#00a6a6] mb-14 px-2">THE CORE COMMITTEE OF IUC</h1>
                 <div className="  w-full h-full p-5 mx-auto  flex flex-wrap gap-x-20 gap-y-24 justify-center items-center text-justify">
 
-                <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
+                <div data-aos="fade-up" className="card1   w-[350px] h-[500px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 max-md:mb-3" src={Academic} />
 
                         <div className="max-md:-translate-y-0  -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Academic Affairs Committee</h1>
+                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-10  text-center uppercase">The Academic Affairs Committee</h1>
                         <p className="text-[14px]">The Academic Affairs Committee is executing academic programs for the CDM teachers and students. The committee comprises</p>
                         <ul className="list-disc text-[14px] pl-[15px]">
                             <li className="">Creating new curriculum compliance with institutional and accreditation standards for the CDM students</li>
@@ -52,11 +52,11 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                    <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
+                    <div data-aos="fade-up" className="card2   w-[350px] h-[500px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
                         
                         <img className="bg-[#00cfcf] w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16  rounded-[50%] border border-slate-200 max-md:mb-3" src={Student} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
-                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-4  text-center uppercase">The Student Affairs Committee</h1>
+                        <h1 className="text-[20px]  font-bold text-[#00a6a6] mb-10  text-center uppercase">The Student Affairs Committee</h1>
                         <p className="text-[14px]" >The specific goals and objectives of the Student Affairs Committee are</p>
                         <ul className="list-disc text-[14px] pl-[15px]">
                             <li className="">Collecting and maintaining the CDM students' data</li>
@@ -68,7 +68,7 @@ educational opportunities; and to cooperate with the National Unity Government m
                     
                         </div>
                        </div>
-                       <div data-aos="fade-up" className="card1   w-[350px] h-[490px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
+                       <div data-aos="fade-up" className="card3   w-[350px] h-[500px] max-sm:h-[auto] p-[20px]  rounded-lg border border-slate-200  shadow-slate-200 shadow-lg ;">
                         
                         <img className=" w-[80px] mx-auto max-md:-translate-y-0 -translate-y-16 bg-[#84dbff] rounded-[50%] border border-sky-100 max-md:mb-3" src={Info} />
                         <div className="max-md:-translate-y-0 -translate-y-12">
