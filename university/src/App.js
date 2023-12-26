@@ -9,8 +9,9 @@ import Home from './components/Home';
 import About from './components/About';
 import Iuc from './components/Iuc';
 import Course from './components/Course';
-import New from './components/New';
+// import New from './components/New';
 import NewDetail from './components/NewDetail';
+import News from './components/News';
 import Footer from './components/Footer';
 import {Routes,Route} from "react-router-dom";
 
@@ -31,7 +32,7 @@ function App() {
     
     <Iuc />
     <Course />  
-    <New />
+    <News />
     <Footer />
     </>} />
     <Route path="/newdetail/:id" element={<NewDetail/>} />
